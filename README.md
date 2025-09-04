@@ -93,7 +93,7 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 
 ## 🚀 How to Run
 
-1. Clone repository:
+1. Clone repository notebook of databricks :
    ```bash
    git clone https://github.com/darshant15/NYC-TAXI-DataEngineering-Project.git
    cd NYC-TAXI-DataEngineering-Project
