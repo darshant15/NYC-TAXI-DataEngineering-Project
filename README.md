@@ -42,7 +42,7 @@ It covers **data ingestion, transformation, storage, querying, orchestration, an
 
 ## 🖼️ Architecture Diagram
 
-![Pipeline Architecture](https://raw.githubusercontent.com/darshant15/NYC-TAXI-DataEngineering-Project/main/architecture_diagram.jpeg)
+![Pipeline Architecture](https://github.com/darshant15/NYC-TAXI-DataEngineering-Project/blob/main/ArchitectureofProject(dataengineer).jpeg)
 
 *(Replace the link with the actual raw path of your diagram in the repo.)*
 
