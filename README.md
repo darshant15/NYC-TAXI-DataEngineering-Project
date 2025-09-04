@@ -147,3 +147,17 @@ cd NYC-TAXI-DataEngineering-Project
 4. Trigger ingestion pipelines (ForEach across multiple months).
 5. Run PySpark transformations and save to curated zone.
 6. Load into Synapse and connect Power BI for dashboarding
+
+---
+
+## 📌 Author
+
+👤 **Darshan T**
+
+* 🔗 [GitHub Profile](https://github.com/darshant15)
+
+---
+
+✨ This project highlights real-world cloud pipeline design: API ingestion, Parquet optimization, ADF orchestration with loops/conditions, PySpark transformations, and BI dashboards.  
+
+---
