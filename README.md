@@ -140,7 +140,10 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 
 ## 🚀 How to Run
 
-1. Clone repository notebook of databricks :
-   ```bash
-   git clone https://github.com/darshant15/NYC-TAXI-DataEngineering-Project.git
-   cd NYC-TAXI-DataEngineering-Project
+1. git clone https://github.com/darshant15/NYC-TAXI-DataEngineering-Project.git
+cd NYC-TAXI-DataEngineering-Project
+2. Configure ADF linked services (API URL, ADLS, Key Vault).
+3. Import Databricks notebooks from /notebooks.
+4. Trigger ingestion pipelines (ForEach across multiple months).
+5. Run PySpark transformations and save to curated zone.
+6. Load into Synapse and connect Power BI for dashboarding
