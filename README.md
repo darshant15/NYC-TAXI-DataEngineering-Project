@@ -20,6 +20,53 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 
 ## 🚀 Project Highlights
 
+## 🗂️ Data Lake Architecture (Medallion)
+
+* **Bronze (Raw Zone) 🟤**
+
+  * Stores API-ingested taxi data **as-is** (CSV/Parquet)
+  * No cleaning or schema enforcement applied
+
+* **Silver (Curated Zone) ⚪**
+
+  * Cleaned, deduplicated, and standardized datasets
+  * Applied schema validation, handled nulls, added calculated fields
+  * Stored in **Parquet/Delta format** for efficient querying
+
+* **Gold (Analytics Zone) 🟡**
+
+  * Aggregated datasets optimized for analytics
+  * Partitioned tables by **year/month** for performance
+  * Ready for **Azure Synapse Analytics** & **Power BI dashboards**
+
+---
+
+## 🏗️ Architecture Workflow (with Bronze/Silver/Gold)
+
+1. **Ingestion → Bronze**
+
+   * Data from **APIs & CSV dumps** ingested into **Bronze container** as Parquet files.
+
+2. **Transformation → Silver**
+
+   * Clean & standardize data in **Azure Databricks (PySpark)**.
+   * Store curated outputs into **Silver container**.
+
+3. **Aggregation → Gold**
+
+   * Generate final **aggregated datasets**:
+
+     * Trip duration
+     * Revenue per borough
+     * Busiest pickup/drop-off zones
+     * Peak travel hours
+   * Store results in **Gold container** for BI & Synapse queries.
+
+4. **Analytics & Visualization**
+
+   * **Power BI dashboards** fetch data directly from the **Gold layer**.
+
+---
 - **Automated Ingestion**:  
   - Pulled raw taxi trip data directly from **NYC Taxi & Limousine Commission (TLC) APIs**.  
   - Stored incoming data as **Parquet files** in **Azure Data Lake Storage (ADLS Gen2)** for compression & performance.  
