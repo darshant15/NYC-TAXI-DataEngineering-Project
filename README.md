@@ -4,11 +4,6 @@ This repository presents a complete **data engineering pipeline** built around t
 
 ---
 
-##  Project Walkthrough Video
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/LQY2fvEv4cM" frameborder="0" allowfullscreen></iframe>
-
----
-
 ##  Project Highlights
 
 - **End-to-End Pipeline**  
