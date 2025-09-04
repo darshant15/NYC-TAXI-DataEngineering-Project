@@ -11,6 +11,12 @@ It covers **data ingestion, transformation, storage, querying, orchestration, an
 
 ---
 
+## 🖼️ Architecture Diagram
+
+![Pipeline Architecture](https://github.com/darshant15/NYC-TAXI-DataEngineering-Project/blob/main/ArchitectureofProject(dataengineer).jpeg)
+
+---
+
 ## 🚀 Project Highlights
 
 - **Automated Ingestion**: Ingest raw NYC Taxi trip datasets (yellow/green cabs, FHV, payment data, etc.) into a **Data Lake (ADLS Gen2 / S3)**.  
@@ -40,9 +46,6 @@ It covers **data ingestion, transformation, storage, querying, orchestration, an
 
 ---
 
-## 🖼️ Architecture Diagram
-
-![Pipeline Architecture](https://github.com/darshant15/NYC-TAXI-DataEngineering-Project/blob/main/ArchitectureofProject(dataengineer).jpeg)
 
 *(Replace the link with the actual raw path of your diagram in the repo.)*
 
