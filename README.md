@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates an **end-to-end Data Engineering pipeline** built on the **NYC Taxi dataset**.  
+This project demonstrates an **end-to-end Data Engineering pipeline(ELT)** built on the **NYC Taxi dataset**.  
 It covers **API-based ingestion, transformation (PySpark), storage in Parquet format, workflow automation, orchestration, and visualization** using Azure services.
 
 
@@ -117,7 +117,7 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 
 ---
 
-## ⚙️ Tech Stack & Tools
+## ⚙️ Tech Stack & Tools (ELT)
 
 - **Azure Data Factory (ADF)** – Orchestration, ForEach, If/Else conditions  
 - **Azure Data Lake Storage Gen2 (ADLS)** – Layered raw/curated storage  
