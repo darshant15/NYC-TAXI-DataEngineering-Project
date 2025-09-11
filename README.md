@@ -19,6 +19,7 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 ---
 ## 🖼️ Management-level And Hierarchy
 
+![Management Level & Hierarchy](https://github.com/darshant15/NYC-TAXI-DataEngineering-Project/blob/main/managementLevel%26Hierarchy.jpeg)
 
 ---
 
