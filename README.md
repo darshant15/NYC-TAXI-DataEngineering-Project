@@ -29,7 +29,7 @@ It covers **API-based ingestion, transformation (PySpark), storage in Parquet fo
 
 * **Bronze (Raw Zone) 🟤**
 
-  * Stores API-ingested taxi data **as-is** (CSV/Parquet)
+  * Stores API-ingested taxi data **as-in** (CSV/Parquet)
   * No cleaning or schema enforcement applied
 
 * **Silver (Curated Zone) ⚪**
